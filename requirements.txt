@@ -1,0 +1,24 @@
+# Chunking
+pymupdf>=1.24.0
+
+# Embedding
+ollama>=0.2.0
+fastembed>=0.3.0
+
+# Vector store
+qdrant-client>=1.9.0
+
+# API
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.7.0
+
+# Language detection
+langdetect>=1.0.9
+
+# Generation
+groq>=0.30.0
+
+# Evaluation
+httpx>=0.27.0
+rich>=13.0.0

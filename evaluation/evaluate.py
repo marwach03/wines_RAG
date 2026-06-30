@@ -32,6 +32,7 @@ Requirements:
     pip install httpx ollama rich
 
 API must be running : uvicorn api.main:app --port 8000
+
 """
 
 from __future__ import annotations

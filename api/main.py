@@ -15,6 +15,7 @@ Same shape as the NIS2 retrieval API, plus a generation step:
     though the source chunks are only available in IT/EN. This is
     where the translation actually happens: the LLM reads IT/EN
     context and answers in whatever language the question was in.
+    
 
 Both endpoints auto-detect the query's language (langdetect) and
 support the same optional metadata filters.

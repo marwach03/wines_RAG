@@ -1,6 +1,7 @@
 """
 Hybrid retrieval logic (dense bge-m3 + sparse BM25, fused via Qdrant's
 native RRF). Shared by the /retrieve and /ask endpoints in main.py.
+
 """
 
 from __future__ import annotations

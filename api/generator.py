@@ -106,7 +106,7 @@ def generate_answer(query: str, context_block: str) -> str:
         "- If no relevant information exists at all, say so once, clearly.\n\n"
 
         "LANGUAGE RULE:\n"
-        "- Always respond in the language of the user question.\n"
+        "- Always respond in the language of the user question. \n"
     )
 
     user_prompt = f"Question: {query}\n\nSources:\n{context_block}"

@@ -1,0 +1,205 @@
+{
+  "k": 5,
+  "n_entries": 8,
+  "n_with_ground_truth": 8,
+  "hit_at_5": 0.75,
+  "mrr": 0.6667,
+  "n_judged_faithfulness": 8,
+  "avg_faithfulness": 0.3438,
+  "n_judged_relevancy": 8,
+  "avg_answer_relevancy": 0.5375,
+  "results": [
+    {
+      "id": "gd_001",
+      "query": "Quale vino della linea Stilèma è prodotto con uve Aglianico al 100% e ha un'attitudine all'invecchiamento di 50 anni e oltre?",
+      "language": "it",
+      "hit_at_k": true,
+      "reciprocal_rank": 1.0,
+      "retrieved_chunk_ids": [
+        "stilema_it_wine_003_stilema_taurasi_docg_riserva",
+        "stilema_it_wine_001_stilema_fiano_di_avellino_docg_riserva",
+        "stilema_it_wine_002_stilema_greco_di_tufo_docg_riserva",
+        "stilema_it_wine_005_naturalis_historia_taurasi_docg_riserva",
+        "stilema_it_wine_006_radici_taurasi_docg"
+      ],
+      "answer": "La risposta alla tua domanda è la seguente:\n\nIl vino della linea Stilèma che è prodotto con uve Aglianico al 100% e ha un'attitudine all'invecchiamento di 50 anni è il Fiano di Avellino DOCG Riserva. È un vino complesso ed elegante, caratterizzato da un bouquet ampio e complesso, con classici sentori di pietra focaia e note salmastre, poi mandorla fresca, cedro, erbe di campo.\n\nQuesto vino è ottenuto utilizzando una macerazione in bucce per circa 15 giorni a temperatura controllata tra i 22°C e i 24°C. La fermentazione malolattica ne arrotonda il profilo, donando morbidezza e persistenza. Una piccola quota di fermentazione svolta in barriques di secondo passaggio per 24 mesi.\n\nIl Fiano di Avellino Riserva è un vino da scoprire, che offre una grande struttura e longevo, con un'equilibrio perfetto tra freschezza e sapidità. È ideale per gli amanti della cucina mediterranea, grazie ai suoi sapori di mela matura, ostrica, un pizzico di mandorla tostata e una nota fumé.",
+      "detected_language": "it",
+      "faithfulness": {
+        "score": 0.0,
+        "justification": "Fiano di Avellino Riserva"
+      },
+      "answer_relevancy": {
+        "score": 0.8,
+        "justification": "The answer partially addresses the question by mentioning the type of wine (Aglianico) and aging process (50 years), but lacks specific details about the wine's characteristics, such as its bouquet or finish."
+      }
+    },
+    {
+      "id": "gd_002",
+      "query": "What food pairings are recommended for the STILÈMA GRECO DI TUFO DOCG RISERVA?",
+      "language": "en",
+      "hit_at_k": true,
+      "reciprocal_rank": 1.0,
+      "retrieved_chunk_ids": [
+        "stilema_it_wine_002_stilema_greco_di_tufo_docg_riserva",
+        "stilema_it_wine_001_stilema_fiano_di_avellino_docg_riserva",
+        "stilema_it_wine_016_greco_di_tufo_docg",
+        "stilema_it_stilema_history_01",
+        "stilema_it_stilema_history_02"
+      ],
+      "answer": "Secondo i due source, il STILÈMA GRECO DI TUFODCG RISERVA è un vino bianco con un profilo olfattivo complesso e ricco di sapori. Le note più pronunciate sono:\n\n* Frutta matura (litchi, pompelmo, fiori gialli, frutta secca, fichi)\n* L'umido minerale\n* Note salmastre\n\nIl vino è caratterizzato da un buio paglierino chiaro con accenni di verde. Il suo sapore è deciso e agile, con una spiccata nota salina accompagnata da una sorprendente freschezza.\n\nIn generale, le source suggeriscono che il STILÈMA GRECO DI TUFO DOCG RISERVA sia un vino eccellente per antipasti come zuppe di pesce e crostacei, primi piatti come pasta o risotti ai frutti di mare e secondi piatti come carne bianca, fritture di pesce e verdure.\n\nLa temperature di servizio consigliata è 14/15°C.",
+      "detected_language": "en",
+      "faithfulness": {
+        "score": 0.75,
+        "justification": "The answer is supported by the sources to a moderate extent, but some claims are contradicted or absent from the sources."
+      },
+      "answer_relevancy": {
+        "score": 0.5,
+        "justification": "The answer mentions the wine's flavor profile and characteristics but does not directly address the question about food pairings."
+      }
+    },
+    {
+      "id": "gd_003",
+      "query": "Quelle est la température de service recommandée pour le RADICI TAURASI RISERVA DOCG ?",
+      "language": "fr",
+      "hit_at_k": true,
+      "reciprocal_rank": 1.0,
+      "retrieved_chunk_ids": [
+        "stilema_it_wine_004_radici_taurasi_riserva_docg",
+        "mastro_it_wine_015_taurasi_doc_riserva_1968",
+        "mastro_en_wine_008_radici_taurasi_docg_1993",
+        "stilema_it_wine_006_radici_taurasi_docg",
+        "stilema_it_wine_009_novaserra_greco_di_tufo_docg"
+      ],
+      "answer": "La température de service recommandée pour le RADICI TAURASI RISERVA DOCG est d'18°C.",
+      "detected_language": "fr",
+      "faithfulness": {
+        "score": 0.5,
+        "justification": "The ANSWER is supported by the SOURCES — however, it does not provide a clear temperature recommendation for the specific vintage of Radici Taurasi Riserva DOCG (1968). While there are general climate conditions mentioned in the sources, the answer could be further refined to include information specific to this particular vintage."
+      },
+      "answer_relevancy": {
+        "score": 0.5,
+        "justification": "The ANSWER does not provide information about the specific type of wine or region, it only gives a temperature range (18°C)."
+      }
+    },
+    {
+      "id": "gd_004",
+      "query": "In che anno è stato prodotto per la prima volta il vino Radici della linea Stilèma, e qual è la sua attitudine all'invecchiamento?",
+      "language": "it",
+      "hit_at_k": true,
+      "reciprocal_rank": 1.0,
+      "retrieved_chunk_ids": [
+        "stilema_it_wine_004_radici_taurasi_riserva_docg",
+        "stilema_it_stilema_history_01",
+        "stilema_it_wine_010_morabianca_irpinia_falanghina_doc",
+        "stilema_it_wine_008_radici_fiano_di_avellino_docg",
+        "stilema_it_stilema_history_02"
+      ],
+      "answer": "La prima risposta in italiano è: \"Il Radici della linea Stilèma è prodotto nel 1986\".\n\nQuanto all'attitudine all'invecchiamento, la risposta è: \"60 anni e oltre\".",
+      "detected_language": "it",
+      "faithfulness": {
+        "score": 0.5,
+        "justification": "Non sufficienti elementi di supporto alla fidelità dei sources."
+      },
+      "answer_relevancy": {
+        "score": 0.5,
+        "justification": "The answer does not directly address the question about the year of production and age-related attitude."
+      }
+    },
+    {
+      "id": "gd_005",
+      "query": "Describe the 1993 harvest (vendemmia) for the Mastroberardino Radici Taurasi DOCG.",
+      "language": "en",
+      "hit_at_k": false,
+      "reciprocal_rank": 0.0,
+      "retrieved_chunk_ids": [
+        "mastro_en_wine_008_radici_taurasi_docg_1993",
+        "mastro_it_chrono_taurasi",
+        "mastro_it_wine_017_taurasi_doc_1958",
+        "mastro_en_chrono_taurasi",
+        "mastro_en_wine_007_radici_taurasi_docg_riserva_1997"
+      ],
+      "answer": "Non posso fornire informazioni relative alle viti prodotte nel 1993 per il Radici Taurasi DOCG. Posso aiutarti con qualcos'altro?",
+      "detected_language": "en",
+      "faithfulness": {
+        "score": 0.0,
+        "justification": "The answer contradicts the information in the sources about a poor harvest in 1993."
+      },
+      "answer_relevancy": {
+        "score": 0.0,
+        "justification": "The answer doesn't address the question at all and provides an off-topic reason."
+      }
+    },
+    {
+      "id": "gd_006",
+      "query": "Quelles sont les conditions climatiques qui ont marqué la vendange du Radici Taurasi DOCG Riserva 1997 ?",
+      "language": "fr",
+      "hit_at_k": false,
+      "reciprocal_rank": 0.0,
+      "retrieved_chunk_ids": [
+        "mastro_en_wine_007_radici_taurasi_docg_riserva_1997",
+        "mastro_en_wine_008_radici_taurasi_docg_1993",
+        "mastro_en_wine_004_radici_taurasi_docg_riserva_2004",
+        "mastro_en_chrono_taurasi",
+        "mastro_it_chrono_taurasi"
+      ],
+      "answer": "La vendange du Radici Taurasi DOCG Riserva 1997 a eu des conditions climatiques malsaines. En effet, la température a été un peu basse et il y avait des vestiaires à l'aube avec les premiers fleurs de printemps. Les printemps ont été pluvieux avec une sécheresse excessive pour certaines zones. L'été était chaud mais sec, avec des températures plus élevées que la normale.\n\nCependant, le climat malsain a préservé l'appellation et les conditions de ripostage des vins ont été optimales. La précipitation a débuté fin octobre 1997, mais le vent était froid et il n'y avait pas trop de températures réelles.",
+      "detected_language": "fr",
+      "faithfulness": {
+        "score": 0.3,
+        "justification": "The answer contains some correct information about the conditions that led to the harvest of the Radici Taurasi DOCG Riserva 1997 but also includes facts that contradict or are absent from the sources."
+      },
+      "answer_relevancy": {
+        "score": 0.4,
+        "justification": "The ANSWER mentions some relevant aspects of the climate but doesn't directly answer what was asked about conditions that specifically affected the 1997 vendange."
+      }
+    },
+    {
+      "id": "gd_007",
+      "query": "Quanto dura l'affinamento in legno e in bottiglia dello Stilèma Greco di Tufo DOCG Riserva?",
+      "language": "it",
+      "hit_at_k": true,
+      "reciprocal_rank": 1.0,
+      "retrieved_chunk_ids": [
+        "stilema_it_wine_002_stilema_greco_di_tufo_docg_riserva",
+        "stilema_it_wine_007_more_maiorum_irpinia_bianco_doc",
+        "stilema_it_wine_016_greco_di_tufo_docg",
+        "stilema_it_wine_001_stilema_fiano_di_avellino_docg_riserva",
+        "stilema_it_wine_009_novaserra_greco_di_tufo_docg"
+      ],
+      "answer": "Quanto dura l'affinamento in legno in legno dello Stilèma Greco di Tufo DOCG Riserva? Secondo le fonti, il vino affina poi in bottiglia per circa 24 mesi.",
+      "detected_language": "it",
+      "faithfulness": {
+        "score": 0.5,
+        "justification": "The answer states that the wine will be aged for at least 24 months in oak barrels, but does not mention that it will be aged for 42 months (the length of time the wine is left to rest on its lees after being bottled)."
+      },
+      "answer_relevancy": {
+        "score": 0.8,
+        "justification": "The question asks about the duration of wine maturation in wood and then clarifies that it's done in bottle instead."
+      }
+    },
+    {
+      "id": "gd_008",
+      "query": "What weather conditions characterized the 1999 vintage referred to as 'Centotrenta' for the Taurasi DOCG Riserva?",
+      "language": "en",
+      "hit_at_k": true,
+      "reciprocal_rank": 0.3333333333333333,
+      "retrieved_chunk_ids": [
+        "mastro_en_wine_006_taurasi_docg_riserva",
+        "mastro_en_wine_009_radici_taurasi_doc_1990",
+        "mastro_it_wine_006_taurasi_docg_riserva",
+        "mastro_en_chrono_taurasi",
+        "mastro_en_wine_008_radici_taurasi_docg_1993"
+      ],
+      "answer": "Il clima di questo vino è stato caratterizzato da una scesa dei precipiti durante la stagione estiva del 1999 e l'inizio della primavera con scarsa piovosità, che ha portato a un arresto vegetativo precoce nei primi mesi dell'estate.\n\nLa risposta è stata determinata attraverso i seguenti passaggi: \n\n1. La datazione dei raccolti: il radicale 1993 - a due anni di distanza dallo stesso annuncio della centotrenta - ha registrato una buona piovosità, un abbassamento delle temperature medie e un innalzamento delle escursioni termiche durante la maturazione del vino. \n2. La datazione del mese di Ottobre: la radice 2016 a due anni di distanza ha registrato una buona piovosità, un abbassamento delle temperature medie e un innalzamento delle escursioni termiche durante la maturazione del vino.\n3. Le condizioni climatiche durante il mese di Novembre: la radice 2020 ha registrato una buona piovosità, un abbassamento delle temperature medie e un innalzamento delle escursioni termiche durante la maturazione del vino.",
+      "detected_language": "en",
+      "faithfulness": {
+        "score": 0.2,
+        "justification": "The answer states things that contradict or are absent from the sources."
+      },
+      "answer_relevancy": {
+        "score": 0.8,
+        "justification": "The ANSWER partially addresses the QUESTION by referencing specific weather conditions in 1999 and 2020 but lacks direct relevance to the question asked."
+      }
+    }
+  ]
+}

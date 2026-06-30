@@ -1,0 +1,107 @@
+[
+  {
+    "id": "gd_001",
+    "query": "Quale vino della linea Stilèma è prodotto con uve Aglianico al 100% e ha un'attitudine all'invecchiamento di 50 anni e oltre?",
+    "language": "it",
+    "expected_chunk_ids": ["stilema_it_wine_003_stilema_taurasi_docg_riserva"],
+    "expected_answer_facts": [
+      "Si tratta dello STILÈMA TAURASI DOCG RISERVA",
+      "Vitigno Aglianico 100%",
+      "Attitudine all'invecchiamento di 50 anni e oltre",
+      "Temperatura di servizio 18°C"
+    ],
+    "filters": {"category": "ICON", "project": "stilema"},
+    "_source_note": "Verbatim from chunk stilema_it_wine_003_stilema_taurasi_docg_riserva (provided real chunk)."
+  },
+  {
+    "id": "gd_002",
+    "query": "What food pairings are recommended for the STILÈMA GRECO DI TUFO DOCG RISERVA?",
+    "language": "en",
+    "expected_chunk_ids": ["stilema_it_wine_002_stilema_greco_di_tufo_docg_riserva"],
+    "expected_answer_facts": [
+      "Pairs with starters like seafood soup, legume soup, shellfish, smoked salmon, cheese",
+      "Pairs with seafood or legume/vegetable pasta and risotto",
+      "Pairs with white meat, shellfish, fried fish or vegetables, fresh/soft cheese"
+    ],
+    "filters": {},
+    "_source_note": "Verbatim ABBINAMENTI section from chunk stilema_it_wine_002_stilema_greco_di_tufo_docg_riserva (provided real chunk)."
+  },
+  {
+    "id": "gd_003",
+    "query": "Quelle est la température de service recommandée pour le RADICI TAURASI RISERVA DOCG ?",
+    "language": "fr",
+    "expected_chunk_ids": ["stilema_it_wine_004_radici_taurasi_riserva_docg"],
+    "expected_answer_facts": [
+      "La température de service recommandée est de 18°C",
+      "C'est un Taurasi DOCG Riserva produit avec de l'Aglianico à 100%"
+    ],
+    "filters": {},
+    "_source_note": "Verbatim TEMPERATURA DI SERVIZIO from chunk stilema_it_wine_004_radici_taurasi_riserva_docg (provided real chunk)."
+  },
+  {
+    "id": "gd_004",
+    "query": "In che anno è stato prodotto per la prima volta il vino Radici della linea Stilèma, e qual è la sua attitudine all'invecchiamento?",
+    "language": "it",
+    "expected_chunk_ids": ["stilema_it_wine_004_radici_taurasi_riserva_docg"],
+    "expected_answer_facts": [
+      "Radici è stato prodotto per la prima volta nel 1986",
+      "Attitudine all'invecchiamento di 60 anni e oltre"
+    ],
+    "filters": {"project": "stilema"},
+    "_source_note": "Verbatim from chunk stilema_it_wine_004_radici_taurasi_riserva_docg: 'Radici, prodotto per la prima volta nel 1986' + 'ATTITUDINE ALL'INVECCHIAMENTO 60 anni e oltre' (provided real chunk)."
+  },
+  {
+    "id": "gd_005",
+    "query": "Describe the 1993 harvest (vendemmia) for the Mastroberardino Radici Taurasi DOCG.",
+    "language": "en",
+    "expected_chunk_ids": ["mastro_it_wine_008_radici_taurasi_docg_1993"],
+    "expected_answer_facts": [
+      "The harvest was rich and generous (ricca e generosa)",
+      "September was cool with significant temperature swings allowing slow, gradual ripening",
+      "On March 11, 1993, Taurasi was elevated from DOC to DOCG status — the only DOCG wine in Southern Italy at the time"
+    ],
+    "filters": {"project": "mastroberardino"},
+    "_source_note": "Verbatim from chunk mastro_it_wine_008_radici_taurasi_docg_1993 (provided real chunk)."
+  },
+  {
+    "id": "gd_006",
+    "query": "Quelles sont les conditions climatiques qui ont marqué la vendange du Radici Taurasi DOCG Riserva 1997 ?",
+    "language": "fr",
+    "expected_chunk_ids": ["mastro_it_wine_007_radici_taurasi_docg_riserva_1997"],
+    "expected_answer_facts": [
+      "L'hiver a été plutôt doux avec un débourrement précoce",
+      "Le printemps a été pluvieux avec un bon développement végétatif",
+      "L'été a été sec et chaud, accélérant la maturation des raisins",
+      "Les vendanges se sont déroulées entre la mi-octobre et début novembre"
+    ],
+    "filters": {"project": "mastroberardino"},
+    "_source_note": "Verbatim from chunk mastro_it_wine_007_radici_taurasi_docg_riserva_1997 (provided real chunk)."
+  },
+  {
+    "id": "gd_007",
+    "query": "Quanto dura l'affinamento in legno e in bottiglia dello Stilèma Greco di Tufo DOCG Riserva?",
+    "language": "it",
+    "expected_chunk_ids": ["stilema_it_wine_002_stilema_greco_di_tufo_docg_riserva"],
+    "expected_answer_facts": [
+      "Affinamento su fecce per circa 24 mesi",
+      "Una piccola quota fa fermentazione ed élevage in barriques per 24 mesi",
+      "Affina poi in bottiglia per circa 24 mesi"
+    ],
+    "filters": {"wine_type": "white"},
+    "_source_note": "Verbatim VINIFICAZIONE E AFFINAMENTO from chunk stilema_it_wine_002_stilema_greco_di_tufo_docg_riserva (provided real chunk)."
+  },
+  {
+    "id": "gd_008",
+    "query": "What weather conditions characterized the 1999 vintage referred to as 'Centotrenta' for the Taurasi DOCG Riserva?",
+    "language": "en",
+    "expected_chunk_ids": ["mastro_it_wine_006_taurasi_docg_riserva"],
+    "expected_answer_facts": [
+      "Winter and early spring had low rainfall, causing early budding",
+      "Summer was very dry, with early water stress in July",
+      "From mid-August, good rainfall and cooler temperatures with wider thermal swings allowed slow ripening",
+      "Harvest began in late October, with no rain until early November"
+    ],
+    "filters": {"project": "mastroberardino"},
+    "_source_note": "Verbatim from chunk mastro_it_wine_006_taurasi_docg_riserva, which embeds a 'Centotrenta - 1999' vintage description (provided real chunk)."
+  }
+]

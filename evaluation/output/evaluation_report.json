@@ -1,0 +1,212 @@
+{
+  "retrieval": {
+    "hit@5": 1.0,
+    "mrr": 0.719,
+    "n_samples": 8,
+    "per_sample": [
+      {
+        "id": "gd_001",
+        "language": "it",
+        "hit@5": true,
+        "reciprocal_rank": 1.0,
+        "retrieved_chunk_ids": [
+          "stilema_it_wine_003_stilema_taurasi_docg_riserva",
+          "stilema_it_wine_001_stilema_fiano_di_avellino_docg_riserva",
+          "stilema_it_wine_002_stilema_greco_di_tufo_docg_riserva",
+          "stilema_it_wine_005_naturalis_historia_taurasi_docg_riserva",
+          "stilema_it_wine_006_radici_taurasi_docg"
+        ],
+        "expected_chunk_ids": [
+          "stilema_it_wine_003_stilema_taurasi_docg_riserva"
+        ]
+      },
+      {
+        "id": "gd_002",
+        "language": "en",
+        "hit@5": true,
+        "reciprocal_rank": 1.0,
+        "retrieved_chunk_ids": [
+          "stilema_it_wine_002_stilema_greco_di_tufo_docg_riserva",
+          "stilema_it_wine_001_stilema_fiano_di_avellino_docg_riserva",
+          "stilema_it_wine_003_stilema_taurasi_docg_riserva",
+          "stilema_it_wine_016_greco_di_tufo_docg",
+          "stilema_it_wine_009_novaserra_greco_di_tufo_docg"
+        ],
+        "expected_chunk_ids": [
+          "stilema_it_wine_002_stilema_greco_di_tufo_docg_riserva"
+        ]
+      },
+      {
+        "id": "gd_003",
+        "language": "fr",
+        "hit@5": true,
+        "reciprocal_rank": 1.0,
+        "retrieved_chunk_ids": [
+          "stilema_it_wine_004_radici_taurasi_riserva_docg",
+          "mastro_it_wine_004_radici_taurasi_docg_riserva_2004",
+          "mastro_en_wine_003_radici_taurasi_docg_riserva_2005",
+          "mastro_en_wine_004_radici_taurasi_docg_riserva_2004",
+          "stilema_it_wine_006_radici_taurasi_docg"
+        ],
+        "expected_chunk_ids": [
+          "stilema_it_wine_004_radici_taurasi_riserva_docg"
+        ]
+      },
+      {
+        "id": "gd_004",
+        "language": "it",
+        "hit@5": true,
+        "reciprocal_rank": 0.25,
+        "retrieved_chunk_ids": [
+          "stilema_it_wine_003_stilema_taurasi_docg_riserva",
+          "stilema_it_wine_001_stilema_fiano_di_avellino_docg_riserva",
+          "stilema_it_wine_002_stilema_greco_di_tufo_docg_riserva",
+          "stilema_it_wine_004_radici_taurasi_riserva_docg",
+          "stilema_it_wine_008_radici_fiano_di_avellino_docg"
+        ],
+        "expected_chunk_ids": [
+          "stilema_it_wine_004_radici_taurasi_riserva_docg"
+        ]
+      },
+      {
+        "id": "gd_005",
+        "language": "en",
+        "hit@5": true,
+        "reciprocal_rank": 0.5,
+        "retrieved_chunk_ids": [
+          "mastro_en_wine_008_radici_taurasi_docg_1993",
+          "mastro_it_wine_008_radici_taurasi_docg_1993",
+          "mastro_it_chrono_taurasi",
+          "mastro_en_chrono_taurasi",
+          "mastro_en_wine_003_radici_taurasi_docg_riserva_2005"
+        ],
+        "expected_chunk_ids": [
+          "mastro_it_wine_008_radici_taurasi_docg_1993"
+        ]
+      },
+      {
+        "id": "gd_006",
+        "language": "fr",
+        "hit@5": true,
+        "reciprocal_rank": 0.5,
+        "retrieved_chunk_ids": [
+          "mastro_en_wine_007_radici_taurasi_docg_riserva_1997",
+          "mastro_it_wine_007_radici_taurasi_docg_riserva_1997",
+          "mastro_it_chrono_taurasi",
+          "mastro_en_chrono_taurasi",
+          "mastro_en_wine_003_radici_taurasi_docg_riserva_2005"
+        ],
+        "expected_chunk_ids": [
+          "mastro_it_wine_007_radici_taurasi_docg_riserva_1997"
+        ]
+      },
+      {
+        "id": "gd_007",
+        "language": "it",
+        "hit@5": true,
+        "reciprocal_rank": 1.0,
+        "retrieved_chunk_ids": [
+          "stilema_it_wine_002_stilema_greco_di_tufo_docg_riserva",
+          "stilema_it_wine_016_greco_di_tufo_docg",
+          "stilema_it_wine_009_novaserra_greco_di_tufo_docg",
+          "stilema_it_wine_001_stilema_fiano_di_avellino_docg_riserva",
+          "stilema_it_wine_007_more_maiorum_irpinia_bianco_doc"
+        ],
+        "expected_chunk_ids": [
+          "stilema_it_wine_002_stilema_greco_di_tufo_docg_riserva"
+        ]
+      },
+      {
+        "id": "gd_008",
+        "language": "en",
+        "hit@5": true,
+        "reciprocal_rank": 0.5,
+        "retrieved_chunk_ids": [
+          "mastro_en_wine_006_taurasi_docg_riserva",
+          "mastro_it_wine_006_taurasi_docg_riserva",
+          "mastro_en_chrono_taurasi",
+          "mastro_it_chrono_taurasi",
+          "mastro_en_wine_016_taurasi_doc_riserva_1961"
+        ],
+        "expected_chunk_ids": [
+          "mastro_it_wine_006_taurasi_docg_riserva"
+        ]
+      }
+    ]
+  },
+  "generation": {
+    "faithfulness": 0.46,
+    "answer_relevancy": 0.494,
+    "n_judged_faithfulness": 5,
+    "n_judged_relevancy": 5,
+    "per_sample": [
+      {
+        "id": "gd_001",
+        "language": "it",
+        "faithfulness": {
+          "score": 0.0,
+          "justification": "Un totale di articoli che descrivono diversi vini, tutti con caratteristiche uniche e specifiche. Le informazioni presenti non sono precise o sufficienti per identificare con certezza il vino specifico che si sta cercando."
+        },
+        "answer_relevancy": {
+          "score": 0.3,
+          "justification": "I articoli presentano diverse opzioni di vini, ma non forniscono sufficiente informazioni per identificare con certezza un vino specifico."
+        },
+        "answer_preview": "La risposta è:\n\nCiascuno degli articoli sembra descrivere un vino diverso, tutti con caratteristiche uniche e specifiche. Tuttavia, per fornire una risposta più precisa, dobbiamo analizzare i dati e l"
+      },
+      {
+        "id": "gd_004",
+        "language": "it",
+        "faithfulness": {
+          "score": 1.0,
+          "justification": "La produzione del vino Radici è una Riserva DOCG della DOP per gli Aglianico e Frasso."
+        },
+        "answer_relevancy": {
+          "score": 0.5,
+          "justification": "The answer does not mention the specific year of production for Radice della linea Stilèma, nor its aging style."
+        },
+        "answer_preview": "Secondo i dati forniti, la produzione del vino \"Radici\" è una Riserva DOCG della Denominazione di Origine Protetta (DOP) per gli Aglianico e Frasso. La Raccolta avviene a metà ottobre.\n\nIl processo di"
+      },
+      {
+        "id": "gd_006",
+        "language": "fr",
+        "faithfulness": {
+          "score": 0.5,
+          "justification": "While the answer mentions general conditions that were favorable to vine growth and development, it fails to provide specific details about these conditions from the sources."
+        },
+        "answer_relevancy": {
+          "score": 0.3,
+          "justification": "The ANSWER mentions the 'abondants en hiver', which is related to conditions but does not directly address the question."
+        },
+        "answer_preview": "Les conditions climatiques de 1997 ont été marquées par des précipitations abondantes en hiver, qui ont contribué à une bonne croissance et à un bon développement des graines. En automne, la températu"
+      },
+      {
+        "id": "gd_007",
+        "language": "it",
+        "faithfulness": {
+          "score": 0.2,
+          "justification": "Il sistema di raccolta e vinificazione non sembra essere stato adottato con attenzione alle implicazioni ambientali e sociali, il processo di fermentazione potrebbe richiedere miglioramenti per ridurre gli impatti sull'ambiente e garantire la qualità del vino."
+        },
+        "answer_relevancy": {
+          "score": 0.67,
+          "justification": "The answer partially addresses the question by mentioning the duration of affinamento for both legno and bottle aging in Greco di Tufo DOCG Riserva."
+        },
+        "answer_preview": "L'affinamento in legno per l'antipasto Greco di Tufo DOCG Riserva è durato circa 42 mesi, seguito da un affinamento in bottiglia per altri 18 mesi. La temperatura di servizio consigliata è di 14/15 °C"
+      },
+      {
+        "id": "gd_008",
+        "language": "en",
+        "faithfulness": {
+          "score": 0.6,
+          "justification": "The answer states things that contradict the sources and lacks specific details on some conditions."
+        },
+        "answer_relevancy": {
+          "score": 0.7,
+          "justification": "The answer partially addresses the question by mentioning specific weather conditions during certain periods, but it doesn't provide a direct and complete overview of the 'Centotrenta' vintage."
+        },
+        "answer_preview": "Il 1999 era l'annata centotrenta del Taurasi DOCG Riserva. Durante la primavera, i condizioni meteorologiche erano caratterizzate da una scarsa piovosità, che provocò un arresto vegetativo precoce nei"
+      }
+    ]
+  },
+  "k": 5,
+  "timestamp": "2026-06-25T11:03:01Z"
+}

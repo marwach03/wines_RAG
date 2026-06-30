@@ -68,6 +68,47 @@ def to_retrieved_chunk(point: models.ScoredPoint) -> RetrievedChunk:
     )
 
 
+def rerank_points(query: str, points: list[models.ScoredPoint], limit: int) -> list[models.ScoredPoint]:
+    """
+    Re-score the RRF-fused candidates with a cross-encoder reranker
+    (jina-reranker-v2-base-multilingual, IT/EN/FR-capable), then return
+    only the top `limit` by reranker score.
+
+    Cross-encoders score a (query, document) pair jointly rather than
+    comparing independently-computed embeddings, which generally gives
+    more accurate relevance ordering than the first-stage RRF fusion —
+    at the cost of being slower, which is why it only runs on the
+    already-narrowed candidate pool, not the whole collection.
+
+    Points with no text in their payload are kept at the end, unscored
+    (a cross-encoder has nothing to score them against) rather than
+    dropped — being filtered out silently here would be confusing
+    compared to /retrieve's normal behaviour.
+    """
+    if not points:
+        return points
+
+    scorable = [p for p in points if (p.payload or {}).get("text")]
+    unscorable = [p for p in points if not (p.payload or {}).get("text")]
+
+    if not scorable:
+        return points[:limit]
+
+    documents = [p.payload["text"] for p in scorable]
+    scores = list(cfg.reranker_model.rerank(query, documents))
+
+    for point, score in zip(scorable, scores):
+        point.score = float(score)  # overwrite the RRF score so the
+                                      # returned order and the displayed
+                                      # score stay consistent — without
+                                      # this, callers would see chunks
+                                      # sorted by reranker score but
+                                      # labelled with their stale RRF score
+
+    reranked = sorted(scorable, key=lambda p: p.score, reverse=True)
+    return (reranked + unscorable)[:limit]
+
+
 def do_retrieve(
     query: str,
     limit: int,
@@ -80,6 +121,15 @@ def do_retrieve(
     """
     Core hybrid retrieval logic, shared by /retrieve and /ask.
 
+    Two stages:
+      1. Hybrid first-stage retrieval: dense (bge-m3) + sparse (BM25)
+         candidates, fused with Qdrant's native RRF — pulls more
+         candidates than `limit` so the reranker has a real pool to
+         work with (see RERANK_CANDIDATE_MULTIPLIER/_MIN).
+      2. Cross-encoder reranking (jina-reranker-v2-base-multilingual)
+         re-scores those candidates against the raw query text and
+         keeps only the top `limit`.
+
     Returns (detected_language, scored_points). Raises plain Python
     exceptions on failure — callers (the HTTP endpoints in main.py) are
     responsible for translating those into HTTPException with the
@@ -88,7 +138,7 @@ def do_retrieve(
     """
     if cfg.startup_error is not None:
         raise RuntimeError(f"API not initialised: {cfg.startup_error}")
-    if cfg.qdrant_client is None or cfg.bm25_model is None:
+    if cfg.qdrant_client is None or cfg.bm25_model is None or cfg.reranker_model is None:
         raise RuntimeError("API not fully initialised yet")
 
     detected_lang = detect_language(query)
@@ -106,6 +156,8 @@ def do_retrieve(
             conditions.append(models.FieldCondition(key=field, match=models.MatchAny(any=[value])))
     query_filter = models.Filter(must=conditions) if conditions else None
 
+    rerank_pool_size = max(limit * cfg.RERANK_CANDIDATE_MULTIPLIER, cfg.RERANK_CANDIDATE_MIN)
+
     response = cfg.qdrant_client.query_points(
         collection_name=cfg.COLLECTION_NAME,
         prefetch=[
@@ -113,7 +165,9 @@ def do_retrieve(
             models.Prefetch(query=sparse_vector, using=cfg.SPARSE_VECTOR_NAME, limit=cfg.PREFETCH_LIMIT, filter=query_filter),
         ],
         query=models.FusionQuery(fusion=models.Fusion.RRF),
-        limit=limit,
+        limit=rerank_pool_size,
     )
 
-    return detected_lang, response.points
+    reranked_points = rerank_points(query, response.points, limit)
+
+    return detected_lang, reranked_points

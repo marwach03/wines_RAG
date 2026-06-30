@@ -1,0 +1,142 @@
+[
+    {
+        "post_type": "weinmonitor_market_article",
+        "text": "",
+        "metadata": {
+            "source": "weinmonitor",
+            "data_type": "market_analysis",
+            "url": "https://www.meininger.de/meiningers-sommelier/news/karrieren-und-jobs",
+            "structured_data": {
+                "url": "https://www.meininger.de/meiningers-sommelier/news/karrieren-und-jobs",
+                "title": null,
+                "date": null,
+                "statistics": {},
+                "topics": [],
+                "full_text": ""
+            },
+            "timestamp": 1771371204.0605714,
+            "topics": [],
+            "statistics": {}
+        }
+    },
+    {
+        "post_type": "weinmonitor_market_article",
+        "text": "",
+        "metadata": {
+            "source": "weinmonitor",
+            "data_type": "market_analysis",
+            "url": "https://www.meininger.de/meiningers-sommelier/news/sommelier-on-tour",
+            "structured_data": {
+                "url": "https://www.meininger.de/meiningers-sommelier/news/sommelier-on-tour",
+                "title": null,
+                "date": null,
+                "statistics": {},
+                "topics": [],
+                "full_text": ""
+            },
+            "timestamp": 1771371207.8315027,
+            "topics": [],
+            "statistics": {}
+        }
+    },
+    {
+        "post_type": "weinmonitor_market_article",
+        "text": "",
+        "metadata": {
+            "source": "weinmonitor",
+            "data_type": "market_analysis",
+            "url": "https://www.meininger.de/meiningers-sommelier/news/klartext",
+            "structured_data": {
+                "url": "https://www.meininger.de/meiningers-sommelier/news/klartext",
+                "title": null,
+                "date": null,
+                "statistics": {},
+                "topics": [],
+                "full_text": ""
+            },
+            "timestamp": 1771371212.6541753,
+            "topics": [],
+            "statistics": {}
+        }
+    },
+    {
+        "post_type": "weinmonitor_market_article",
+        "text": "",
+        "metadata": {
+            "source": "weinmonitor",
+            "data_type": "market_analysis",
+            "url": "https://www.meininger.de/getraenke-zeitung/news/handel",
+            "structured_data": {
+                "url": "https://www.meininger.de/getraenke-zeitung/news/handel",
+                "title": null,
+                "date": null,
+                "statistics": {},
+                "topics": [],
+                "full_text": ""
+            },
+            "timestamp": 1771371216.5941427,
+            "topics": [],
+            "statistics": {}
+        }
+    },
+    {
+        "post_type": "weinmonitor_market_article",
+        "text": "",
+        "metadata": {
+            "source": "weinmonitor",
+            "data_type": "market_analysis",
+            "url": "https://www.meininger.de/meiningers-sommelier/news/konzepte",
+            "structured_data": {
+                "url": "https://www.meininger.de/meiningers-sommelier/news/konzepte",
+                "title": null,
+                "date": null,
+                "statistics": {},
+                "topics": [],
+                "full_text": ""
+            },
+            "timestamp": 1771371221.2367182,
+            "topics": [],
+            "statistics": {}
+        }
+    },
+    {
+        "post_type": "weinmonitor_market_article",
+        "text": "",
+        "metadata": {
+            "source": "weinmonitor",
+            "data_type": "market_analysis",
+            "url": "https://www.meininger.de/meiningers-sommelier/news/zahlen-fuer-nerds",
+            "structured_data": {
+                "url": "https://www.meininger.de/meiningers-sommelier/news/zahlen-fuer-nerds",
+                "title": null,
+                "date": null,
+                "statistics": {},
+                "topics": [],
+                "full_text": ""
+            },
+            "timestamp": 1771371225.4405363,
+            "topics": [],
+            "statistics": {}
+        }
+    },
+    {
+        "post_type": "weinmonitor_market_article",
+        "text": "",
+        "metadata": {
+            "source": "weinmonitor",
+            "data_type": "market_analysis",
+            "url": "https://www.meininger.de/meiningers-sommelier/news/tipps-und-picks",
+            "structured_data": {
+                "url": "https://www.meininger.de/meiningers-sommelier/news/tipps-und-picks",
+                "title": null,
+                "date": null,
+                "statistics": {},
+                "topics": [],
+                "full_text": ""
+            },
+            "timestamp": 1771371229.6099706,
+            "topics": [],
+            "statistics": {}
+        }
+    }
+]

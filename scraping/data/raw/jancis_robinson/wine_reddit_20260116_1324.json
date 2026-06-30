@@ -1,0 +1,57 @@
+[
+    {
+        "post_type": "review",
+        "source": "jancis_robinson",
+        "text": "",
+        "metadata": {
+            "score_20": "N/A",
+            "drinking_window": "Drinks not wine",
+            "url": "https://www.jancisrobinson.com/articles/tasting-articles",
+            "timestamp": 1768566253.5193024
+        }
+    },
+    {
+        "post_type": "review",
+        "source": "jancis_robinson",
+        "text": "",
+        "metadata": {
+            "score_20": "N/A",
+            "drinking_window": "Drinks not wine",
+            "url": "https://www.jancisrobinson.com/articles/wines-week",
+            "timestamp": 1768566258.688977
+        }
+    },
+    {
+        "post_type": "review",
+        "source": "jancis_robinson",
+        "text": "",
+        "metadata": {
+            "score_20": "N/A",
+            "drinking_window": "Drinks not wine",
+            "url": "https://www.jancisrobinson.com/articles/wine-news-5",
+            "timestamp": 1768566263.3234444
+        }
+    },
+    {
+        "post_type": "review",
+        "source": "jancis_robinson",
+        "text": "",
+        "metadata": {
+            "score_20": "N/A",
+            "drinking_window": "Drinks not wine",
+            "url": "https://www.jancisrobinson.com/articles/inside-information",
+            "timestamp": 1768566267.7979317
+        }
+    },
+    {
+        "post_type": "review",
+        "source": "jancis_robinson",
+        "text": "",
+        "metadata": {
+            "score_20": "N/A",
+            "drinking_window": "Drinks not wine",
+            "url": "https://www.jancisrobinson.com/articles/dont-quote-me",
+            "timestamp": 1768566273.0814884
+        }
+    }
+]

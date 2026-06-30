@@ -1,0 +1,82 @@
+[
+  {
+    "id": "nz56is6",
+    "source": "reddit",
+    "subreddit": "naturalwine",
+    "post_type": "comment",
+    "parent_id": "1qarv8r",
+    "text": "There’s quite a bit happening right now, it tends to be a little hard to find from the outside because so much of it is small and a lot of it ends up staying in Portugal. Recent highlights: Penhó - Vinho verde Duckman - Bairrada Artisans Terroir - Alentejo Ciclo - Alentejo Natus - Alentejo",
+    "raw_title": "",
+    "raw_body": "There’s quite a bit happening right now, it tends to be a little hard to find from the outside because so much of it is small and a lot of it ends up staying in Portugal. \n\nRecent highlights: \n\nPenhó - Vinho verde\n\nDuckman - Bairrada \n\nArtisans Terroir - Alentejo \n\nCiclo - Alentejo\n\nNatus - Alentejo",
+    "author": "vaalyr",
+    "score": 2,
+    "created_at": "2026-01-12T12:12:04",
+    "url": "https://reddit.com/r/naturalwine/comments/1qarv8r/portugal/nz56is6/",
+    "metadata": {
+      "num_comments": 0,
+      "collected_at": "2026-01-21T10:36:00.548727",
+      "keywords_matched": [
+        "bairrada",
+        "alentejo",
+        "vinho verde",
+        "terroir"
+      ],
+      "countries_detected": [
+        "portugal"
+      ],
+      "text_length": 290
+    }
+  },
+  {
+    "id": "nz8p3xa",
+    "source": "reddit",
+    "subreddit": "naturalwine",
+    "post_type": "comment",
+    "parent_id": "1qarv8r",
+    "text": "If you go to Douro go to Libatio bar in Régua. It's the best place to learn about the best bio/natural wines from Douro.",
+    "raw_title": "",
+    "raw_body": "If you go to Douro go to Libatio bar in Régua. It's the best place to learn about the best bio/natural wines from Douro.",
+    "author": "Cokitonunes",
+    "score": 2,
+    "created_at": "2026-01-12T22:58:29",
+    "url": "https://reddit.com/r/naturalwine/comments/1qarv8r/portugal/nz8p3xa/",
+    "metadata": {
+      "num_comments": 0,
+      "collected_at": "2026-01-21T10:36:00.548727",
+      "keywords_matched": [
+        "natural wine",
+        "douro"
+      ],
+      "countries_detected": [
+        "portugal"
+      ],
+      "text_length": 120
+    }
+  },
+  {
+    "id": "o0ntene",
+    "source": "reddit",
+    "subreddit": "naturalwine",
+    "post_type": "comment",
+    "parent_id": "1qarv8r",
+    "text": "[Quinta de Lemos]( makes beautiful, rustic wines in the Dão — worth visiting for sure",
+    "raw_title": "",
+    "raw_body": "[Quinta de Lemos](https://quintadelemos.com/visit-us/en/) makes beautiful, rustic wines in the Dão — worth visiting for sure",
+    "author": "cmballa_",
+    "score": 1,
+    "created_at": "2026-01-20T14:15:12",
+    "url": "https://reddit.com/r/naturalwine/comments/1qarv8r/portugal/o0ntene/",
+    "metadata": {
+      "num_comments": 0,
+      "collected_at": "2026-01-21T10:36:00.548727",
+      "keywords_matched": [
+        "dão",
+        "rustic"
+      ],
+      "countries_detected": [
+        "portugal"
+      ],
+      "text_length": 85
+    }
+  }
+]

@@ -1,0 +1,186 @@
+{
+  "n_raw_entries": 2239,
+  "folders_found": {
+    "decanter": 8,
+    "deutsches": 46,
+    "dwv": 62,
+    "jancis_robinson": 10,
+    "merum": 5,
+    "old": 350,
+    "reddit": 1549,
+    "vdp": 57,
+    "vinepair": 15,
+    "vinous": 9,
+    "vinum": 45,
+    "weinforum": 50,
+    "weinmonitor": 21,
+    "winefolly": 12
+  },
+  "n_extracted": 2030,
+  "n_excluded_broken_folder": {
+    "dwv": 62,
+    "jancis_robinson": 10,
+    "merum": 5,
+    "vdp": 57,
+    "vinous": 9,
+    "vinum": 45,
+    "weinmonitor": 21
+  },
+  "known_broken_folders": [
+    "dwv",
+    "jancis_robinson",
+    "merum",
+    "vdp",
+    "vinous",
+    "vinum",
+    "weinmonitor"
+  ],
+  "n_used_generic_extractor_by_folder": {},
+  "folders_needing_dedicated_extractor": [
+    "falstaff",
+    "meininger",
+    "winesearcher"
+  ],
+  "n_passed_quality_filters": 1230,
+  "n_rejected_quality_filters": 800,
+  "rejection_reasons": {
+    "off_topic_low_density": 147,
+    "too_short": 653
+  },
+  "rejection_reasons_by_folder": {
+    "old": {
+      "off_topic_low_density": 23,
+      "too_short": 130
+    },
+    "reddit": {
+      "too_short": 523,
+      "off_topic_low_density": 124
+    }
+  },
+  "n_duplicates_removed": 540,
+  "n_final_chunks": 690,
+  "n_final_chunks_via_generic_extractor": 0,
+  "final_by_source": {
+    "decanter": 8,
+    "deutsches_weininstitut": 23,
+    "old": 197,
+    "reddit": 401,
+    "vinepair": 5,
+    "weinforum": 50,
+    "winefolly": 6
+  },
+  "final_by_language": {
+    "en": 616,
+    "de": 74
+  },
+  "final_by_country": {
+    "n/a": 19,
+    "de": 73,
+    "france": 43,
+    "italy": 79,
+    "portugal": 7,
+    "spain": 8,
+    "unknown": 458,
+    "usa": 3
+  },
+  "per_folder_funnel": {
+    "decanter": {
+      "root": "raw",
+      "found": 8,
+      "extracted": 8,
+      "kept": 8,
+      "broken": false
+    },
+    "deutsches": {
+      "root": "raw",
+      "found": 46,
+      "extracted": 46,
+      "kept": 23,
+      "broken": false
+    },
+    "dwv": {
+      "root": "raw",
+      "found": 62,
+      "extracted": 0,
+      "kept": 0,
+      "broken": true
+    },
+    "jancis_robinson": {
+      "root": "raw",
+      "found": 10,
+      "extracted": 0,
+      "kept": 0,
+      "broken": true
+    },
+    "merum": {
+      "root": "raw",
+      "found": 5,
+      "extracted": 0,
+      "kept": 0,
+      "broken": true
+    },
+    "old": {
+      "root": "raw",
+      "found": 350,
+      "extracted": 350,
+      "kept": 197,
+      "broken": false
+    },
+    "reddit": {
+      "root": "raw",
+      "found": 1549,
+      "extracted": 1549,
+      "kept": 401,
+      "broken": false
+    },
+    "vdp": {
+      "root": "raw",
+      "found": 57,
+      "extracted": 0,
+      "kept": 0,
+      "broken": true
+    },
+    "vinepair": {
+      "root": "raw",
+      "found": 15,
+      "extracted": 15,
+      "kept": 5,
+      "broken": false
+    },
+    "vinous": {
+      "root": "raw",
+      "found": 9,
+      "extracted": 0,
+      "kept": 0,
+      "broken": true
+    },
+    "vinum": {
+      "root": "raw",
+      "found": 45,
+      "extracted": 0,
+      "kept": 0,
+      "broken": true
+    },
+    "weinforum": {
+      "root": "raw",
+      "found": 50,
+      "extracted": 50,
+      "kept": 50,
+      "broken": false
+    },
+    "weinmonitor": {
+      "root": "raw",
+      "found": 21,
+      "extracted": 0,
+      "kept": 0,
+      "broken": true
+    },
+    "winefolly": {
+      "root": "raw",
+      "found": 12,
+      "extracted": 12,
+      "kept": 6,
+      "broken": false
+    }
+  }
+}

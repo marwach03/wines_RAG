@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1qh08y0",
+    "source": "reddit",
+    "subreddit": "wine",
+    "post_type": "post",
+    "parent_id": null,
+    "text": "A Beautiful Trio Always good when a trio of wines lands on your doorstep! I have yet to try them, but I have two red wines and a white wine. They have come from Bodegas Emilia Mora in the Toro region of Spain!",
+    "raw_title": "A Beautiful Trio",
+    "raw_body": "Always good when a trio of wines lands on your doorstep! I have yet to try them, but I have two red wines and a white wine. They have come from Bodegas Emilia Mora in the Toro region of Spain!",
+    "author": "Vinos_de_Espana",
+    "score": 1,
+    "created_at": "2026-01-19T11:03:03",
+    "url": "https://reddit.com/r/wine/comments/1qh08y0/a_beautiful_trio/",
+    "metadata": {
+      "num_comments": 1,
+      "collected_at": "2026-01-19T12:15:16.222115",
+      "keywords_matched": [
+        "toro"
+      ],
+      "countries_detected": [
+        "spain"
+      ],
+      "text_length": 209
+    }
+  },
+  {
+    "id": "nzoy4hy",
+    "source": "reddit",
+    "subreddit": "winemaking",
+    "post_type": "comment",
+    "parent_id": "1qd2lts",
+    "text": "I'm the founder of Winetraqr and the owner of a winery in Priorat. I wanted to point out that Winetraqr is FREE for most wineries. We have a premium tier with some extra features as well, like being able to track analytics from QR code scans and being able to create Marketing pages that can link customers to your ecommerce platform, etc. It's not just for EU-based wineries that have to abide by the new EU regulations. We'd love to have some commercial winemakers give it a try and give feedback!",
+    "raw_title": "",
+    "raw_body": "I'm the founder of Winetraqr and the owner of a winery in Priorat. I wanted to point out that Winetraqr is FREE for most wineries. We have a premium tier with some extra features as well, like being able to track analytics from QR code scans and being able to create Marketing pages that can link customers to your ecommerce platform, etc. It's not just for EU-based wineries that have to abide by the new EU regulations.\n\n  \nWe'd love to have some commercial winemakers give it a try and give feedback!",
+    "author": "redtarmac",
+    "score": 2,
+    "created_at": "2026-01-15T08:47:46",
+    "url": "https://reddit.com/r/winemaking/comments/1qd2lts/winetraqr_qr_codes_for_eu_wine_nutrition_and/nzoy4hy/",
+    "metadata": {
+      "num_comments": 0,
+      "collected_at": "2026-01-19T12:16:45.331662",
+      "keywords_matched": [
+        "priorat"
+      ],
+      "countries_detected": [
+        "spain"
+      ],
+      "text_length": 499
+    }
+  }
+]

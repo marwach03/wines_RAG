@@ -1,0 +1,79 @@
+{
+  "n_raw_entries": 1271,
+  "folders_found": {
+    "reddit": 1247,
+    "winefolly": 18,
+    "v1.vinous": 6
+  },
+  "n_extracted": 1271,
+  "n_excluded_broken_folder": {},
+  "known_broken_folders": [
+    "dwv",
+    "jancis_robinson",
+    "merum",
+    "vdp",
+    "vinous",
+    "vinum",
+    "weinmonitor"
+  ],
+  "n_used_generic_extractor_by_folder": {
+    "v1.vinous": 6
+  },
+  "folders_needing_dedicated_extractor": [
+    "falstaff",
+    "meininger",
+    "winesearcher"
+  ],
+  "n_passed_quality_filters": 729,
+  "n_rejected_quality_filters": 542,
+  "rejection_reasons": {
+    "off_topic_low_density": 27,
+    "too_short": 514,
+    "empty_text": 1
+  },
+  "rejection_reasons_by_folder": {
+    "reddit": {
+      "off_topic_low_density": 27,
+      "too_short": 514,
+      "empty_text": 1
+    }
+  },
+  "n_duplicates_removed": 249,
+  "n_final_chunks": 480,
+  "n_final_chunks_via_generic_extractor": 3,
+  "final_by_source": {
+    "reddit": 471,
+    "winefolly": 6,
+    "v1.vinous": 3
+  },
+  "final_by_language": {
+    "en": 479,
+    "fr": 1
+  },
+  "final_by_country": {
+    "n/a": 480
+  },
+  "per_folder_funnel": {
+    "reddit": {
+      "root": "raw_2",
+      "found": 1247,
+      "extracted": 1247,
+      "kept": 471,
+      "broken": false
+    },
+    "v1.vinous": {
+      "root": "raw_2",
+      "found": 6,
+      "extracted": 6,
+      "kept": 3,
+      "broken": false
+    },
+    "winefolly": {
+      "root": "raw_2",
+      "found": 18,
+      "extracted": 18,
+      "kept": 6,
+      "broken": false
+    }
+  }
+}
